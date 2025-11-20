@@ -1,60 +1,60 @@
-#  NeoGaming
+#  NeoGaming – Rama test
 
-*NeoGaming* es una plataforma de *e-commerce especializada en el sector gaming, diseñada para ofrecer una experiencia de compra **inteligente, personalizada e inmersiva*.  
-Combina un *buscador inteligente impulsado por inteligencia artificial* y un *chatbot de asistencia gamer*, capaces de interpretar lenguaje natural, recomendar productos según el perfil del jugador y acompañar al usuario durante todo el proceso de compra.
+Esta rama está destinada a las pruebas y verificación de calidad (QA) del proyecto NeoGaming.
+Aquí se integran las funcionalidades provenientes de develop para evaluarlas antes de su paso a producción.
 
----
 
-##  Descripción General
 
-En el panorama actual del *comercio electrónico gamer*, los usuarios enfrentan catálogos amplios y desorganizados que dificultan la búsqueda eficiente de productos.  
-*NeoGaming* busca resolver esta problemática mediante un sistema que combina:
+##  Objetivo de la Rama test
 
--  *Buscador inteligente con IA* que comprende lenguaje natural.  
--  *Chatbot gamer* que guía al usuario en tiempo real.  
--  *Recomendaciones personalizadas* basadas en el tipo de jugador (casual, competitivo o profesional).  
+La rama test permite:
 
-Con ello, NeoGaming ofrece una experiencia de compra *moderna, fluida y personalizada*, elevando los estándares del e-commerce gamer.
+-  Verificar que las nuevas funcionalidades trabajan correctamente juntas.
+-  Detectar errores antes de subir cambios a main.  
+-  Realizar pruebas manuales y automáticas.
+-  Validar que el proyecto cumple con los criterios de calidad definidos.
+-  Simular un entorno previo a producción (pre-release). 
 
----
 
-##  Características Principales
 
-- Plataforma web de comercio electrónico enfocada en gamers.  
-- Buscador inteligente con procesamiento de lenguaje natural.  
+##  Tipos de Pruebas a Realizar
+
+- Pruebas de integración  
 - Chatbot de asistencia gamer con IA.  
-- Sistema de gestión de usuarios: registro, login, historial de compras.  
-- Catálogo dinámico filtrable por tipo (hardware, consolas, videojuegos, periféricos).  
-- Panel administrativo para gestión de productos, usuarios e inventario.  
-- Pasarelas de pago seguras (PayPal, tarjetas, criptomonedas).  
-- Diseño *responsive* y adaptable a móviles y escritorio.  
-- Sistema de recomendaciones según perfil del jugador.  
+- Pruebas del chatbot e IA
+- Pruebas del buscador inteligente (NLP)  
+- Pruebas de interfaz (UI/UX)
+- Pruebas de rendimiento básicas  
 
----
+*(Las pruebas avanzadas se documentarán en producción)*.
 
-## 🛠 Tecnologías Utilizadas
 
-- *Frontend:* Next.js + TypeScript + React + Tailwindcss 
-- *Backend:* Java (Spring Boot) + Node.js  
-- *Base de datos:* MySQL / MongoDB  
-- *IA y Chatbot:* Modelos de Procesamiento de Lenguaje Natural (NLP)  
-- *Control de versiones:* Git & GitHub  
-- *Herramientas adicionales:* APIs de recomendación, librerías de UI y frameworks modernos  
 
----
+## Flujo de Trabajo
 
-##  Módulos del Sistema
+El flujo de Git usando esta rama es:
 
-> 🔧 *Esta sección se completará durante la fase de despliegue.  
-> Aquí se documentarán los módulos implementados, sus funciones y diagramas correspondientes.*
+> feature/*  →  develop  →  **test**  →  main
+ 
+- Los cambios llegan a test solo cuando **develop** está estable.  
+- Tras probar y validar en test, los cambios podrán pasar a *main*. 
 
----
 
-## ⚙ Restricciones
 
-> ⚠ Las restricciones del software y del entorno de desarrollo se definirán al momento del despliegue del proyecto, cuando se establezcan los parámetros técnicos finales y las dependencias del entorno de producción.
+##  Tecnologías Bajo Prueba
 
----
+- *Frontend*: Next.js, TypeScript, React, TailwindCSS  
+- *Backend*: Spring Boot (Java), Node.js
+- *Base de Datos*: MySQL / Workbench
+- *IA*: Modelos NLP, chatbot, sistema de recomendaciones
+
+
+
+## Aspectos Pendientes
+
+> ⚠ *Las validaciones de despliegue final y pruebas automatizadas completas se finalizarán en la próxima fase del proyecto.*
+
+
 
 ## 👩‍💻 Equipo del Proyecto
 
@@ -65,6 +65,6 @@ Con ello, NeoGaming ofrece una experiencia de compra *moderna, fluida y personal
 | *Juan Manuel Velasco Duque* | Equipo de Desarrollo | Front End Developer |
 | *Juan Pablo Galviz Marulanda* | Equipo de Desarrollo | Front End Developer |
 
----
 
-**NeoGaming – Transformando la experiencia gamer en el comercio digital. **
+
+**Rama TEST – Validación y aseguramiento de calidad. **

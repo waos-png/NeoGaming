@@ -1,0 +1,70 @@
+# =========================
+# Node / Frontend / Backend
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno (IMPORTANTE)
+.env
+.env.*
+!.env.example
+
+# Builds
+dist/
+build/
+
+# Cobertura de tests
+coverage/
+
+
+# =========================
+# IDEs
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+
+# =========================
+# Sistema
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# Backend
+# =========================
+
+backend/uploads/
+backend/storage/
+backend/logs/
+
+
+# =========================
+# Frontend
+# =========================
+
+frontend/.vite/
+frontend/dist/
+
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.tmp
+*.temp
+*.swp

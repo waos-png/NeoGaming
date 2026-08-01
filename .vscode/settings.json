@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "chatgpt.openOnStartup": true,
+    "java.configuration.updateBuildConfiguration": "disabled"
+}

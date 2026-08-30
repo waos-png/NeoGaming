@@ -1,0 +1,31 @@
+# =============================================
+# NeoGaming V2 - Root .gitignore
+# =============================================
+
+# Sub-repos (cada uno tiene su propio repo para despliegue)
+Backend-NeoGaming/
+Frontend-NeoGaming/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node
+node_modules/
+
+# Java / Spring Boot
+target/
+*.jar
+*.war
+*.class
+
+# Env / Secrets
+.env
+.env.*
+!.env.example

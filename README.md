@@ -28,8 +28,8 @@ NeoGaming/
 | Proyecto | Repositorio |
 |----------|-------------|
 | **Raíz (este repo)** | [waos-png/NeoGaming](https://github.com/waos-png/NeoGaming) |
-| **Backend** | *(enlazado en su propia carpeta)* |
-| **Frontend** | *(enlazado en su propia carpeta)* |
+| **Backend** | [waos-png/Frontend-NeoGaming](https://github.com/waos-png/Frontend-NeoGaming.git) |
+| **Frontend** | [waos-png/Backend-NeoGaming](https://github.com/waos-png/Backend-NeoGaming.git) |
 
 ## Requisitos previos
 
